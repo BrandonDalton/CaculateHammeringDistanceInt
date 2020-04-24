@@ -7,6 +7,7 @@ public class Solution {
     while (check > 0)  
     { 
         setBits += check & 1; 
+        //Shifts
         check >>= 1; 
     } 
   
